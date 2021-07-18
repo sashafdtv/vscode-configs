@@ -1,0 +1,182 @@
+{
+  /* Общие настройки */
+  "workbench.startupEditor": "none",
+  "editor.suggest.preview": true,
+  "workbench.tips.enabled": false,
+  "window.dialogStyle": "custom",
+  "window.restoreWindows": "one",
+  "telemetry.enableCrashReporter": false,
+  "problems.decorations.enabled": false,
+  "zenMode.silentNotifications": false,
+  "workbench.iconTheme": "vs-minimal",
+  "files.associations": {
+    "*.env.development": "env",
+    "*.env.production": "env",
+    "*.jsx": "javascriptreact"
+  },
+
+  /* Терминал */
+  "terminal.integrated.fontSize": 11,
+
+  /* Текстовый редактора */
+  "editor.linkedEditing": true,
+  "editor.wordWrap": "on",
+  "editor.tabCompletion": "on",
+  "editor.renderWhitespace": "none",
+  "editor.insertSpaces": false,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "diffEditor.wordWrap": "on",
+  "editor.accessibilitySupport": "off",
+
+  /* Автодополение */
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.quickSuggestionsDelay": 0,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.suggest.localityBonus": true,
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.wordBasedSuggestions": false,
+  "editor.parameterHints.enabled": true,
+  "editor.snippetSuggestions": "top",
+
+  /* Цветные скобки */
+  "bracketPairColorizer.scopeLineRelativePosition": true,
+  "bracketPairColorizer.showVerticalScopeLine": false,
+  "bracketPairColorizer.showHorizontalScopeLine": false,
+
+  /* Форматирование + eslint */
+  // "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.formatOnSave": true,
+
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false, // align with ESLint Standard
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": false, // align with ESLint Standard
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.format.enable": true,
+  "eslint.options": {
+    "extensions": [".js"]
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "vue", "twig", "html"],
+  "eslint.alwaysShowStatus": true,
+
+  /* Расширения */
+
+  /* Git graph */
+  "git-graph.repository.commits.fetchAvatars": true,
+
+  /* cSpell */
+  "cSpell.language": "en,ru",
+  "cSpell.enabled": false,
+  "cSpell.userWords": [
+    "Roboto",
+    "keyframes",
+    "translatex",
+    "адаптива",
+    "парсить"
+  ],
+  "cSpell.enableFiletypes": ["!json"],
+
+  /* GitLens */
+  "gitlens.views.fileHistory.avatars": false,
+  "gitlens.views.fileHistory.files.compact": false,
+  "gitlens.currentLine.pullRequests.enabled": false,
+  "gitlens.currentLine.scrollable": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.views.commits.showBranchComparison": false,
+  "gitlens.views.commits.pullRequests.enabled": false,
+  "gitlens.views.commits.files.layout": "list",
+  "gitlens.views.commits.avatars": false,
+  "gitlens.views.fileHistory.files.layout": "list",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.mode.active": "zen",
+  "vetur.validation.style": false,
+
+  /* Customize UI */
+
+  // "window.titleBarStyle": "native",
+  // "window.nativeTabs": true,
+  // "customizeUI.titleBar": "inline",
+  // "customizeUI.font.regular": "Helvetica Nueve",
+  // "customizeUI.font.regular": "Ubuntu",
+  // "customizeUI.font.regular": "Fira Code",
+  // "customizeUI.font.monospace": "TIme",
+
+  "customizeUI.activityBar": "regular",
+  "customizeUI.moveStatusbar": false,
+  "customizeUI.fontSizeMap": {
+    "13px": "12px",
+    "12px": "12px",
+    "window-title": "12px",
+    "tab-title": "12px",
+    "monospace": "10.5px",
+    "menu": "11px"
+  },
+
+  "customizeUI.stylesheet": {
+    ".actions-container": "display: none",
+    ".editor-actions": "display: none",
+    ".monaco-icon-label-container": "display: flex !important; align-items: center !important",
+    ".tab.sizing-fit": "padding: 0 30px !important",
+    ".monaco-editor .scroll-decoration": "box-shadow: none"
+  },
+
+  "editor.stickyTabStops": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // linux
+  "zenMode.centerLayout": false,
+  "emmet.triggerExpansionOnTab": true,
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 7,
+  "editor.scrollBeyondLastColumn": 0,
+  "color-highlight.markRuler": false,
+  "scm.diffDecorations": "gutter",
+  "workbench.tree.indent": 15,
+  "debug.console.fontSize": 9,
+  "javascript.autoClosingTags": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.tree.renderIndentGuides": "none",
+  "breadcrumbs.filePath": "last",
+  "zenMode.hideLineNumbers": false,
+  "editor.cursorSmoothCaretAnimation": true,
+  "scm.diffDecorationsGutterVisibility": "hover",
+  "scm.diffDecorationsGutterWidth": 5,
+  "editor.cursorBlinking": "phase",
+  "workbench.editor.untitled.hint": "text",
+  "explorer.compactFolders": false,
+  "explorer.incrementalNaming": "smart",
+  "problems.showCurrentInStatus": true,
+  "keyboard.touchbar.enabled": false,
+  "advancedNewFile.showInformationMessages": false,
+  "breadcrumbs.symbolSortOrder": "name",
+  "search.actionsPosition": "auto",
+  "editor.find.autoFindInSelection": "multiline",
+  "editor.padding.top": 15,
+  "editor.rulers": [],
+  "notebook.outline.showCodeCells": true,
+  "chaliceIcons.showArrows": true,
+  "search.quickOpen.includeHistory": false,
+  "task.quickOpen.history": 0,
+  "editor.minimap.enabled": false,
+  "git.decorations.enabled": false,
+  "breadcrumbs.enabled": false,
+  "window.doubleClickIconToClose": true,
+  "window.title": "${appName}",
+  "terminal.integrated.gpuAcceleration": "off",
+  "editor.inlineSuggest.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vetur.validation.template": false,
+  "eslint.workingDirectories": ["./src"],
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false,
+  "workbench.colorTheme": "Calm eye"
+}
